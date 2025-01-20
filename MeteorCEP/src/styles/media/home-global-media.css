@@ -1,0 +1,51 @@
+@media (max-width:600px){
+    #container__left {
+        font-size: 1rem;
+    }
+
+    #container__time{
+        font-size: 1.5rem;
+    }
+
+    .servicos{
+        width: 60%;
+        /*COR DE FUNDO DO CARD*/
+        height: 60%;
+        background-color:#b4997b;
+        /*COR DA FONTE*/
+        color: black;
+        /*CENTRALIZA O TEXTO*/
+        border-radius: 0.6rem;
+    }
+
+    .servicos img{
+        /*AJUSTAR A IMAGEM DE ACORDO COM A LARGURA DO CARD*/
+        width: 100%;
+        /*ALTURA AUTOMATICA DA IMAGEM*/
+        height: 26rem;
+    }
+
+    .descricao{
+        text-align: center;
+    }
+
+    .descricao h1{
+        font-size: 2.3rem;
+    }
+
+    .descricao p{
+        font-size: 0.9rem;
+    }
+
+    .servicos:hover .descricao{
+        /*FAZ IR PARA O TOPO QUANDO O MOUSE PASSAR EM CIMA*/
+        top: 0;
+        width: 58vw;
+    }
+
+    .btn a{
+        width:14rem;
+        padding: 0.5rem;
+    }
+};
+
